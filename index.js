@@ -33,4 +33,4 @@ class App extends Component {
   }
 }
 
-render(<Main />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
