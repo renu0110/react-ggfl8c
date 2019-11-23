@@ -59,6 +59,7 @@ export default class FormDemo extends Component
         <br/>
         email:<input type="text" name="email" onChange={this.handleChange} value={this.state.email}/>
         <div style={{color:'red'}}> {this.state.emailError} </div>
+        <br />
         <input type="submit" name="submit"/>
       </div>
       </form>

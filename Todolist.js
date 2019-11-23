@@ -32,14 +32,27 @@ export default class Todolist extends Component
   render()
   {
     return(
+      <div>
     <div>
       <input type='text' placeholder="Enter item text" onChange={this.handleChange} />
+      
+      </div>
+      <div>
+      <br />
       <button onClick={this.handleAddToDoItem}>Add Item </button>
+      &nbsp;
+      <button onClick={() => this.props.onDelete(this.props.id)}>Delete</button>
+
+
+
+
+
       {this.state.value.map((result) => (
         <div>
         <p> {result} </p>
         </div>
     ))}
+    </div>
 
       
 {

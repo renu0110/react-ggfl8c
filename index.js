@@ -24,6 +24,7 @@ class App extends Component {
           Start editing to see some magic happen :)
         </p>
         <Todolist /> 
+        <br />
         <FormDemo />
         <Main />
 
